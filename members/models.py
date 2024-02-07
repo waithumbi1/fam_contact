@@ -6,4 +6,6 @@ class Member(models.Model):
     lastName = models.CharField(max_length=255)
     phone = models.IntegerField(null=True)
     Joined_date = models.DateField(null=True)
+    gender = models.CharField(null=True)
 
+    
